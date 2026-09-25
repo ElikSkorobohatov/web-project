@@ -1,0 +1,49 @@
+:root{
+    --main-green-color: #b9ff66;
+    --main-black-color: #191A23;
+    --main-white-color: #F3F3F3;
+
+    --main-font-family: "Space Grotesk";
+}
+
+@font-face{
+    font-family: "Space Grotesk";
+    src: url("/src/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+h1{
+    font-family: var(--main-font-family);
+    font-size: 60px;
+    font-weight: 515
+}h2{
+    font-family: var(--main-font-family);
+    font-size: 40px;
+}h3{
+    font-family: var(--main-font-family);
+    font-size: 30px;
+}h4{
+    font-family: var(--main-font-family);
+    font-size: 20px;
+}p{
+    font-family: var(--main-font-family);
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+button{
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    font-weight: 400;  
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+}
