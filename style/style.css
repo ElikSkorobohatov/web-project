@@ -32,3 +32,39 @@ header .block .text button{
     height: 68px;
     margin-top: 20px;
 }
+
+/*_________________________________________________________________________
+STYLE FOR MAIN
+_________________________________________________________________________*/
+
+main .flex .box{
+    background-color: var(--main-green-color);
+    width: 499px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 var(--main-black-color);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+main .flex .box img{
+    width: 210px;
+    height: fit-content;
+}
+
+main .flex .box .text img{
+    width: 41px;
+    height: 41px;
+}
+
+main .flex .box .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

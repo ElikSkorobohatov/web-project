@@ -34,7 +34,7 @@ h1{
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
 }
 
@@ -46,4 +46,18 @@ button{
     border-radius: 14px;
     background-color: black;
     color: white;
+}
+
+.hightext{
+    background-color: var(--main-green-color);
+    border: none;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin: 0;
+    width: fit-content;
+}
+
+.align{
+    align-items: center;
+    gap: 10px
 }
