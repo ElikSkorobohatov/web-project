@@ -34,7 +34,7 @@ _________________________________________________________________________*/
 
 main .flex .box{
     background-color: var(--main-green-color);
-    width: 499px;
+    width: calc(100%/2 - 100px - 25px);
     height: 210px;
     border: 1px solid black;
     border-radius: 45px;
@@ -71,17 +71,13 @@ main .flex .cont{
 
 main .flex .work{
     flex-direction: column;
-    width: 100%;
+    width:  calc(100% - 41px*2);
     height: 195px;
     padding: 41px;
 }
 
-.box.work{
-    margin: 20px 0;
-}
-
 main .flex .box.team{
-    width: 314px;
+    width: calc(100%/3 - 70px - 30px);
     height: 250px;
     background-color: var(--main-white-color);
     padding: 40px 35px;
@@ -95,6 +91,10 @@ main .check{
 
 label{
     margin-bottom: 100px;
+}
+
+#wigth{
+    width: 500px;
 }
 
 /*_________________________________________________________________________
