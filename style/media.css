@@ -92,5 +92,7 @@
         height: 50px;
     }#activ{
        height: fit-content;
+    }#name, #email, #message{
+        width: 90%;
     }
 }

@@ -30,6 +30,10 @@ body{
     background-color: white;  
     color: black; 
 }
+.block .hotbar button:hover{
+    color: white;  
+    background-color: black; 
+}
 
  .block .logo img{
     margin-left: 10px;
@@ -153,4 +157,7 @@ footer .footer.flex .block.flex{
     color: var(--main-black-color);
     width: 249px;
     height: 68px;
+}#approve:hover{
+    color: var(--main-green-color);
+    background-color: var(--main-black-color);
 }

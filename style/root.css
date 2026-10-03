@@ -32,6 +32,11 @@ h1{
     text-decoration: none;
     font-family: var(--main-font-family);
     font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}a:hover{
+    color: var(--main-green-color);
+    transition: 0.3s;
 }
 
 h1, h2, h3, h4, p, a{
@@ -56,6 +61,13 @@ button{
     border-radius: 14px;
     background-color: black;
     color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: var(--main-black-color);
+    transition: 0.3s;
 }
 
 .hightext{
