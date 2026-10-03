@@ -11,21 +11,21 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <div class="block flex">
-                <div class="logo">
-                   <img src="src/logo/logo.png" alt="">
-                   <img src="src/logo/Positivus.png" alt="">
-                </div>
-                <div class="hotbar flex" id="hide">
-                    <a>About us</a>
-                    <a>Services</a> 
-                    <a>Use Cases</a> 
-                    <a>Pricing</a> 
-                    <a>Blog</a>
-                    <button>Request a quote</button>
-                </div>
+        <div class="block flex" id="hotbar">
+            <div class="logo">
+               <img src="src/logo/logo.png" alt="">
+               <img src="src/logo/Positivus.png" alt="">
             </div>
+            <div class="hotbar flex" id="hide">
+                <a>About us</a>
+                <a>Services</a> 
+                <a>Use Cases</a> 
+                <a>Pricing</a> 
+                <a>Blog</a>
+                <button>Request a quote</button>
+            </div>
+        </div>
+        <header>
             <div class="block flex text">
                 <div class="text" style="width: 531px; height: 481px;">
                     <h1 style="margin-bottom: 30px;">Navigating the digital landscape for success</h1>
@@ -161,7 +161,7 @@
             </div>
 
             <div class="flex margin-top100" style="flex-direction: column; gap: 20px;">
-                <div class="box work" >
+                <div class="box work" id="activ">
                     <div class="flex align space-between" style="width: 100%; height: 77px;">
                         <div class="flex align" style="gap: 25px;">
                             <h1>01</h1>
@@ -342,14 +342,14 @@
                 <img id="hide" src="src/illustration/Illustration (1).png" alt="" style="width: 367px; object-fit: cover; object-position: 0;">
             </div>
         </main>
-        <!--<footer class="margin-top100">
-            <div class="flex footer">
-                <div class="block flex margin-top100">
+        <footer class="margin-top100">
+            <div class="flex footer" style="flex-direction: column;">
+                <div class="block flex space-between align">
                     <div class="logo">
                        <img src="src/logo/logo.png" alt="">
                        <img src="src/logo/Positivus.png" alt="">
                     </div>
-                    <div class="hotbar flex">
+                    <div class="hotbar flex space-between" id="hide">
                         <a>About us</a>
                         <a>Services</a> 
                         <a>Use Cases</a> 
@@ -362,8 +362,23 @@
                         <img src="src/logo/Social icon (2).png" alt="">
                     </div>
                 </div>
+                <div class="flex align space-between" style="margin: 50px;">
+                    <div>
+                        <h4>Contact us:</h4>
+                        <p>Email: info@positivus.com</p>
+                        <p>Phone: 555-567-8901</p>
+                        <p>Address: 1234 Main St<br>
+                            Moonstone City, Stardust State 12345</p>
+                    </div>
+                    <div id="footer-id" >
+                        <input id="foot-email" type="text" placeholder="Email">
+                        <button id="approve">Subscribe to news</button>
+                    </div>
+                </div>
+                <div></div>
+
             </div>
-        </footer>-->
+        </footer>
     </div>
 </body>
 </html>

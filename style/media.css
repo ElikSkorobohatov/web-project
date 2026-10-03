@@ -66,6 +66,14 @@
     header .block .text button{
         float: right;
     }
+    footer .flex.footer .flex.align.space-between{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }footer .flex.footer .flex.align.space-between div, #footer-id{
+        width: 100%;
+    }
+
 }@media (max-width: 600px){
     .wrapper{
         max-width: 400px;
@@ -75,5 +83,14 @@
     }
     #highline{
         flex-direction: column;
+    }
+    main .flex .box.team{
+        width: calc(100% - 50px);
+    }
+    #minus{
+        width: 50px;
+        height: 50px;
+    }#activ{
+       height: fit-content;
     }
 }
